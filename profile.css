@@ -64,18 +64,24 @@ main {
 }
 #address {
   padding: 5px;
+  margin-top: 5px;
   font-family: 'Open Sans', serif;
   font-size: 14px;
   display: flex;
   align-self: self-start;
   flex-direction: column;
 }
-
+#location{
+   color: #a79ae0;
+}
 #profileSocial a{
   margin: 0 5px;
 }
 #email {
-  color: #a79ae0;
+  background-color: #a79ae0;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
   text-decoration: none;
 }
 #date {
