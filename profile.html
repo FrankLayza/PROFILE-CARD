@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="profile.css" />
+    <title>My Profile Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div id="img-circle">
+          <img data-testid="profilePicture" src="mine.jpg" alt="" />
+        </div>
+        <div id="profile-text">
+          <p data-testid="fullName" id="profile-name">
+            Anthony Frank Chukwuebuka
+          </p>
+          <p data-testid="jobTitle" id="profile-title">Frontend Developer</p>
+        </div>
+        <p data-testid="shortBio" id="profileBio">
+          Hi, my name is Anthony Frank 
+        </p>
+        <div id="address">
+          <a data-testid="emailAddress" id="email" href=""
+            >frankez478@gmail.com</a
+          >
+          <p data-testid="currentLocation">
+            <i class="fa-solid fa-location-dot" style="color: #b197fc"></i> Imo,
+            Nigeria
+          </p>
+        </div>
+
+        <div id="profileSocial">
+          <a data-testid="socialLinks" href="https://github.com/FrankLayza"
+            ><i class="fa-brands fa-github" style="color: #b197fc"></i
+          ></a>
+          <a data-testid="socialLinks" href="https://x.com/FrankLayza"
+            ><i class="fa-brands fa-x-twitter" style="color: #b197fc"></i
+          ></a>
+          <a data-testid="socialLinks" href="https://www.linkedin.com/in/frank-anthony-6a9948322/"><i class="fa-brands fa-linkedin" style="color: #B197FC;"></i></a>
+        </div>
+
+        <div id="date">
+          <p data-testid="currentTimeUTC" id="hour">12</p>
+          <span>:</span>
+          <p data-testid="currentTimeUTC" id="mins">12</p>
+          <span>:</span>
+          <p data-testid="currentTimeUTC" id="secs">12</p>
+        </div>
+      </main>
+    </div>
+
+    <script src="profile.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9f2064d785.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
